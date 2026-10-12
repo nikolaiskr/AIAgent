@@ -32,7 +32,7 @@ except ImportError:  # pragma: no cover
     web = None  # type: ignore[assignment]
     AIOHTTP_OK = False
 
-WEBAPP_DIR = Path(__file__).resolve().parent / "webapp"
+WEBAPP_DIR = Path(__file__).resolve().parent
 
 KIND_LABELS = {
     "generate_section": "Генерация раздела",
